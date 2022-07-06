@@ -1,0 +1,63 @@
+
+
+body {
+  margin: 0px;
+  box-sizing: border-box !important;
+  font-family: Whitney-200;
+}
+
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 20px 70px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-item {
+  font: 16px Whitney-300;
+  margin: 0px 20px 0px 20px;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+.menu-botao button {
+  color: #23272A;
+  background-color: white;
+  
+  border: none;
+  border-radius: 30px;
+  
+  padding: 10px 15px;
+  font: 14px Whitney-200;
+
+  outline: none;
+}
+
+.menu-botao button {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.menu-botao button:hover {
+  color: #7289da;
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
